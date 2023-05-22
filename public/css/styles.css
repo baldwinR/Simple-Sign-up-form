@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+}
+
+.form-container {
+    background-image: url('../images/reg-bg.jpg');
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.reg-container {
+    background-image: url('../images/reg-bg.jpg');
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-title, .login-title {
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+.contact-title, .about-title {
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+h1.success-msg {
+    color: #482121;
+    font-size: 40px;
+    padding: 15px;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+.message {
+    text-align: center;
+    color: #482121;
+    background-color: #47A992;
+    border-radius: 15px;
+    border: 3px solid #EEEEEE;
+}
+
+hr {
+    background-color: white;
+    height: 5px;
+}
+
+form {
+    width: 60%;
+    padding: 3%;
+    background-color: #482121;
+    border-radius: 15px;
+    border: 3px solid #EEEEEE;
+}
+
+#email {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#password {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    margin: 5px;
+}
+
+.main-div{
+    background-image: url('../images/reg-bg.jpg');
+    background-size: cover;
+    height: 80vh;
+    padding: 15px 10px;
+    display: grid;
+    grid-template-columns: 1 3;
+    grid-template-rows: auto auto;
+    gap: 30px;
+}
+
+.contact {
+    background-color: #482121;
+    /* background-image: url('../images/reg-bg.jpg'); */
+    padding: 15px;
+    width: 25%;
+    min-width: min-content;
+    border-radius: 10px;
+    min-height: min-content;
+    height: max-content;
+    max-width: fit-content;
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+
+.contact-table {
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    width: max-content;
+}
+.contact-table td {
+    padding: 3px 0;
+}
+
+.about {
+    background-image: url('../images/reg-bg.jpg');
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    padding: 15px 10px;
+}
+
+.about-content {
+    background-color: white;
+    width: 60%;
+    min-width: 500px;
+    padding: 15px;
+    border: 3px solid #482121;
+    border-radius: 15px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.about-title {
+    color: black;
+}
+
+.other-content {
+    background-color: white;
+    width: 90%;
+    grid-area: 1 / 2 / 3 / 3;
+    min-width: 500px;
+    padding: 15px;
+    border: 3px solid #482121;
+    border-radius: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
